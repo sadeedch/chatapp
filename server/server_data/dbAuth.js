@@ -1,11 +1,11 @@
 const mongo = require('mongodb')
 const client = mongo.MongoClient;
-const dbPop = require('./dbPop');
+//const dbPop = require('./dbPop');
 
 client.connect("mongodb://localhost:27017",  { useNewUrlParser: true, useUnifiedTopology: true }).then(async (client) => {
 	try {
 		db = client.db("chitterDB")
-		dbPop.populateDatabase();
+		//dbPop.populateDatabase();
 	} catch (err) {
         console.warn(err)
 		response.status(500).json("Something Bad Occured")
