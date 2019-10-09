@@ -1,0 +1,25 @@
+<div class="grid-container">
+    <div class="grid-element profile-pic" style="text-align:center">
+        <img width="250" alt="user image" src="https://i.ibb.co/0GMbsVV/usr.png">
+        
+    </div>
+    
+    <div align = "center" class="grid-element channel-management">
+             GROUPS <br>
+        <div *ngFor="let group of groupList">
+            {{group.gname}}
+            <div  *ngFor="let channel of channelList">
+                <div style="font-size:24px; color:gray;" *ngIf="channel.group==group.gname">{{channel.cname}}</div>
+            </div>
+        </div>
+    </div>
+    <div align = "center" class="profile-data">
+            <p> Name: {{name}} </p>
+            <p> Email: {{email}}</p>
+            <div><a class="btn btn-primary" routerLink="/chat">Go to Chat</a></div>
+           
+        
+    </div>
+</div>
+
+<router-outlet></router-outlet>

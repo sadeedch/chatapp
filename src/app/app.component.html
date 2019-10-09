@@ -1,0 +1,21 @@
+<!--This file and it's corresponding css dictates the content and layout of the nav bar present through the website-->
+<div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <a  class="navbar-brand" style = "color: white; font-size: 30px;">Chat App</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li> <a style = "color: white; font-size: 20px;" routerLink="/login">Login</a></li>
+      <li> <a style = "color: white; font-size: 20px;"  routerLink="/account">Account</a></li>
+      <li> <a style = "color: white; font-size: 20px;" routerLink="/chat">Chat</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a (click)="logoutClick()" style = "color: white; font-size: 20px;" routerLink="/login">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+<router-outlet></router-outlet>

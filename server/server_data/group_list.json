@@ -1,0 +1,26 @@
+
+[
+    {
+        "id" : 0, 
+        "gname" : "Pakistan"
+    },
+    {
+        "id" : 1, 
+        "gname" : "Australia"
+    },
+
+    {
+        "id" : 2, 
+        "gname" : "Sports"
+    },
+
+    {
+        "id" : 3, 
+        "gname" : "Food"
+    },
+
+    {
+        "id" : 4, 
+        "gname" : "Travel"
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "id" : 0, 
+        "cname" : "Pak 1", 
+        "group" : "Pakistan", 
+        "owner" : "Admin",
+         "memberlist" : [ "Admin", "Sadeed" ] 
+    },
+    {
+        "id" : 1, 
+        "cname" : "Pak 2", 
+        "group" : "Pakistan", 
+        "owner" : "Admin",
+        "memberlist" : [ "Admin" ]
+    },
+    {
+        "id" : 2, 
+        "cname" : "Australia Travel", 
+        "group" : "Australia", 
+        "owner" : "Groupadmin",
+        "memberlist" : [ "Admin", "Groupadmin" ]
+    },
+    {
+
+        "id" : 3, 
+        "cname" : "Cricket World", 
+        "group" : "Sports", 
+        "owner" : "Admin",
+        "memberlist" : [ "Admin", "Sadeed" ]
+
+    }
+]
+
