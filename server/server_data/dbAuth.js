@@ -22,7 +22,7 @@ module.exports.loginParse = async function loginParse(email, pass){
 			//console.log("User isn't real");
 			return false;
 		} if (user[0].pass === pass){
-			//console.log("User was \"hacked\" successfully");
+			
 			return true;
 		} else {
 			//console.log("Wrong email or password");
