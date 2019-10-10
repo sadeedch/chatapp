@@ -1,7 +1,7 @@
-##Documentation
-##Sadeed Ahmad 
-##Chat App – Assignment 2
-##Software Frameworks
+### Documentation
+### Sadeed Ahmad 
+### Chat App – Assignment 2
+### Software Frameworks
 ###	Git
 
 I have used visual studio code terminal to initiate the project into git hub and then used the terminal to update the code from time to time as I made the progress. First, I initiated my local repository with git init and then added the files through git add. I pushed different commits into the GitHub as I made progress or changes in my code. The github address for this project is 
