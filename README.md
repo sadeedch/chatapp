@@ -41,9 +41,10 @@ The server file also includes dbAuth.js file which takes care of the database.
 
 
 
-Route	Parameters	Return Value	Purpose
-/login	Input username, 
-Input password	User credentials true or false	To check if the user credentials exits in the database. If yes, then login the user. 
+|Route | Parameters | Return Value | Purpose|
+|/login	| Input username, Input password |	User credentials true or false	To check if the user credentials exits in the database. If yes, then login the user. |
+
+
 /account	User email	Userdata empty or not	Check what type of account the user belong to.
 /group		All Groups data	To retrieve all the group details
 /channel	Channel name	Channel data	If the group have any channels, then display them along with the group name.
