@@ -18,7 +18,7 @@ app.use(cors());   //Apply express middleware
 app.use(bodyParser.json());
 
 client.connect("mongodb://localhost:27017",  { useNewUrlParser: true, useUnifiedTopology: true }).then(async (client) => {
-    let db = client.db("chatappDB")
+    let db = client.db("chitterDB")
     sockets.connect(io, db);  //Setup Socket
 });
 
