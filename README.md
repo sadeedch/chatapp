@@ -41,7 +41,8 @@ The server file also includes dbAuth.js file which takes care of the database.
 
 
 
-|Route | Parameters | Return Value | Purpose|
+| Route | Parameters | Return Values | Purpose |
+|-------|------------|---------------|---------|
 |/login	| Input username, Input password |	User credentials true or false	To check if the user credentials exits in the database. If yes, then login the user. |
 
 
